@@ -1,0 +1,23 @@
+# 模型路径
+model_name_or_path: /home/xusenlin/KJB/qwyq-kj
+
+# 使用加速设备
+accelerator: cuda
+
+# 使用GPU设备号
+devices: "0"
+
+# 最大批量大小
+max_batch_size: 1
+
+# 单次请求超时时间（s）
+timeout: 30
+
+# 批量收集请求超时时间（ms）
+batch_timeout: 0
+
+# 单个设备启动的副本数量
+workers_per_device: 1
+
+# 服务端口
+port: 7896

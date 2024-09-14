@@ -1,0 +1,14 @@
+# 模型路径
+model_name_or_path: /data/checkpoints/Qwen2-VL-7B-Instruct
+
+# 使用加速设备
+accelerator: cuda
+
+# 单次请求超时时间（s）
+timeout: 30
+
+# 单个设备启动的副本数量
+workers_per_device: 1
+
+# 服务端口
+port: 7896
