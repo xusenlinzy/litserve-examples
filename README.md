@@ -3,21 +3,21 @@
 ## 信息抽取
 
 ```shell
-cd information-extraction
+cd Information-Extraction
 python server.py config.yaml
 ```
 
-## Qwen2-Chat
+## Qwen-Chat
 
 ```shell
-cd language-model
+cd Qwen-Chat
 python server.py config.yaml
 ```
 
 ## Qwen2-VL
 
 ```shell
-cd multimodal
+cd Qwen2-VL
 python server.py config.yaml
 ```
 
